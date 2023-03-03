@@ -1,0 +1,29 @@
+<html>
+<head>
+  <title>Not my first page</title>
+  <script async src="js tests.js">
+  </script>
+  <style>
+    #result{
+      color: black;
+      font-size: 24px;
+    }
+  </style>
+</head>
+<body onload="newGame()">
+  <h1>Guessing Game</h1>
+  <h2>Guess the number to win a prize</h2>
+  <form onsubmit="guessingGame2(); return false">
+    <br>
+    Enter a number between 1 and 50:
+    <input type="text" id="guess" size="5">
+    <button type="button" onclick="guessingGame2()">Submit</button>
+  </form>
+  <br>
+  <div id="result"></div>
+  <br>
+  <div id="scoreboard"></div>
+  <br>
+  <div id="name"></div
+</body>
+</html>
